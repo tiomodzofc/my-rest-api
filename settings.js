@@ -1,18 +1,18 @@
 const fs = require('fs')
 
-global.creator = 'Zeeoneofc'// yourname
+global.creator = 'Tio Modz'// yourname
 global.MONGO_DB_URI = "mongodb+srv://Saycat:oyNcxxphdoLDpqWA@data-say.n77nxub.mongodb.net/?retryWrites=true&w=majority&appName=Data-say" //database mongodb 
 global.ACTIVATION_TOKEN_SECRET = "-@Pqnap+@(/1jAPPnew/@10" //isi apa aja bebas
-global.your_email = "" //email
-global.email_password = "" //application password email
-global.limitCount = 10000
+global.your_email = "saycatbot@gmail.com" //email
+global.email_password = "hacksteam12" //application password email
+global.limitCount = 5
 global.YUOR_PORT = 8000
 global.loghandler = {
 	noapikey:{
 		status: 403,
-        message: 'Input parameter apikey',
+        message: 'Cade a apikey?',
         creator: `${creator}`,
-        result: "error"
+        result: "erro"
     },
     error: {
         status: 503,
